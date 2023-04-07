@@ -1,99 +1,70 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
-## Your Task
+## Description
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+This project aims to create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. The application will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. The [Moment.js](https://momentjs.com/) library is used to work with date and time. 
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+## Installation
 
-## User Story
+This application runs in a browser while its HTML, CSS, JS, images, and README files are accessed through the author's GitHub repository athttps://github.com/Adzy89
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+The application has the following user interface:
 
-## Acceptance Criteria
+![scheduler](./assets/images/screenshot1_work-day-scheduler.png)
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+For review and grading purposes, the application is deployed at https://adzy89.github.io/planner/. 
 
-The following animation demonstrates the application functionality:
+## Usage
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](/planner/Assets/05-third-party-apis-homework-demo.gif)
+This application enables an employee (user) with a busy schedule to add important events so the user can manage the user's time effectively.
 
-## Grading Requirements
+Following the acceptance criteria required  of the project and the mock-up provided on how the project should function and look like, this application features the following functionalities: 
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+When a user uses the daily planner to create a schedule:
 
-This Challenge is graded based on the following criteria:
+* When the user opens the planner, the current day is displayed at the top of the calendar. The application uses a date utility library to work with date and time;
 
-### Technical Acceptance Criteria: 40%
+* When the user scrolls down, the user is presented with timeblocks for standard business hours;
 
-* Satisfies all of the above acceptance criteria plus the following:
+* When the user views the timeblocks for that day, each timeblock is color-coded to indicate whether it is in the past, present, or future. Past even is in gray, present is in red, and future is in green;
 
-  * Uses a date utility library to work with date and time
+* When the user clicks into a timeblock, the user can enter an event;
 
-### Deployment: 32%
+* When the user clicks the save button for that timeblock, the text for that event is saved in local storage;
 
-* Application deployed at live URL
+* When the user refreshes the page, the saved events persist.
 
-* Application loads with no errors
+* The timeblock entry fields are editable, however, the user can use the clear button to clear all contents and the local storage. 
 
-* Application GitHub URL submitted
 
-* GitHub repo contains application code
+## Credits
 
-### Application Quality: 15%
+The following books, handouts, websites, and other resources were consulted and/or utilized in the development of this project:
 
-* Application user experience is intuitive and easy to navigate
+* Lectures on Javascript and Third-Party APIs, UCI Coding Bootcamp;
 
-* Application user interface style is clean and polished
+* Unit 3 and Unit 5 handouts on Javascript and Third-Party APIs, UCI Coding Bootcamp;
 
-* Application resembles the mock-up functionality provided in the Challenge instructions
+* Murach's Javascript and jQuery 4th Edition by Mary Delamater and Zak Ruvalcaba, 2020, San Francisco, CA;
 
-### Repository Quality: 13%
+* Eloquent Javascript 3rd Edition by Marijn Haverbeke, 2019, San Francisco, CA;
 
-* Repository has a unique name
+* MDN Web Docs on Javascript and Third-Party APIs;
 
-* Repository follows best practices for file structure and naming conventions
+* https://jQuery.com;
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+* https://getbootstrap.com;
 
-* Repository contains multiple descriptive commit messages
+* https://fontawesome.com for the lock/save icon;
 
-* Repository contains quality README file with description, screenshot, and link to deployed application
+* https://fonts.google.com;
 
-## Review
+* https://momentjs.com;
 
-You are required to submit the following for review:
+* https://stackoverflow.com for troubleshooting and questions on Javascript and jQuery functionalities. 
 
-* The URL of the deployed application
+* https://w3schools.com for Javascript and Third-Party APIs references and tutorials; and
 
-* The URL of the GitHub repository, with a unique name and a README describing the project
+* https://www.youtube.com for Javascript tutorials.
 
-- - -
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
